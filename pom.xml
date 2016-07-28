@@ -4,9 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>bg.nettytest</groupId>
-    <artifactId>nettytest</artifactId>
+    <groupId>bg.netty.example</groupId>
+    <artifactId>nettyExample</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+    <dependency>
+        <groupId>io.netty</groupId>
+        <artifactId>netty-all</artifactId>
+        <version>4.1.3.Final</version>
+    </dependency>
+    </dependencies>
 
 </project>
